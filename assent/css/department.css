@@ -1,3 +1,7 @@
+body a{
+  text-decoration: none !important;
+}
+
 :root {
   --theme-color: #17a2b8;
   --btn-clr: #17a2b8;

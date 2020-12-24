@@ -1,3 +1,7 @@
+body a{
+    text-decoration: none !important;
+  }
+
 /*-- contact --*/
 .address-info {
 	padding: 1em 2em;
