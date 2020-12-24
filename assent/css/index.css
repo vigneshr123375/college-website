@@ -199,7 +199,36 @@ nav .navbar-brand image {
  font-style: normal;
 }
 
-
+@media (max-width:1024px){
+  .event{
+    margin-top: 65rem !important;
+  }
+}
+@media (max-width:770px){
+  .event{
+    margin-top: 55rem !important;
+  }
+}
+@media (max-width:550px){
+  .event{
+    margin-top: 35rem !important;
+  }
+}
+@media (max-width:420px){
+  .event{
+    margin-top: 40rem !important;
+  }
+}
+@media (max-width:380px){
+  .event{
+    margin-top: 35rem !important;
+  }
+}
+@media (max-width:325px){
+  .event{
+    margin-top: 30rem !important;
+  }
+}
 @media (max-width: 576px) {
   .event {
     font-size: 16px;
