@@ -577,6 +577,7 @@ footer .social {
   text-decoration: none;
   opacity: 0.8;
   border: 1px solid #ccc;
+  transition: .3s;
 }
 footer .social:hover {
   opacity: 1;
