@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assent/css/index.css" />
     <link rel="stylesheet" href="assent/css/co-cur.css" />
     <link rel="stylesheet" href="assent/css/contact.css">
+   
     <!-- lib -->
     <link
       rel="stylesheet"
@@ -24,11 +25,25 @@
       .team-grid h4{
         font-size: .9rem;
         }
-        .layout{
-          position: relative;
-        }
-       
         
+        .layout{
+            width: 100%; 
+            height: 100%; 
+            overflow: hidden; 
+           
+          
+        }
+        .layout img { 
+            width: 100%; 
+            transition: 0.5s all ease-in-out; 
+        } 
+        .layout:hover{
+          overflow: scroll;
+        }
+        .layout:hover img { 
+            transform: scale(1.5); 
+            
+        } 
 
        
      
@@ -610,16 +625,14 @@
        </h3>
   
        <div class="layout" >
-         <img src="assent/images/sections/layout.jpg" alt="" style="width: 100%; height: 100%; " class="img-fluid zoom">
+        <img src="assent/images/sections/layout.jpg" alt="" style="width: 100%; height: 100%; " class="img-fluid " data-zoomable="true">
         
-       </div> 
+       </div>
        
 
       </div>
       
-      
-    
-    </div>
+      </div>
     <!-- //team -->
 
     <footer class="page-footer font-small pt-4">
@@ -743,6 +756,8 @@
     <script src="assent/js/jquery.countup.js"></script>
     <script src="assent/js/jquery.waypoints.min.js"></script>
     <script src="assent/js/simplyCountdown.js"></script>
+   
+    
 
     <script>
       $(".counter").countUp();
@@ -795,5 +810,8 @@
         fadeOutSpeed: 500,
       });
     </script>
+
+
+
   </body>
 </html>

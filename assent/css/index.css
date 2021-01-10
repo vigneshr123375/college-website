@@ -97,6 +97,25 @@ nav .navbar-brand image {
   margin-left: 2px;
   transition: 0.3s all ease-in-out;
 }
+
+/* vcky edited logo2 */
+.logo2{
+  position: relative;
+  width: 7rem;
+  margin-right: 1rem;
+  display: none;
+  
+
+}
+.logo2 img{
+  width: 100%;
+  height: 4rem;
+}
+@media (min-width:1024px){
+  .logo2{
+    display: block;
+  }
+}
 /* nav end */
 
 /*--------------------------------------------------------------
